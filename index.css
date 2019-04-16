@@ -1,0 +1,156 @@
+
+ html {
+    line-height: 1.15; /* 1 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+  }
+  body {
+    margin: 0;
+  }
+  main {
+    display: block;
+  }
+  h1 {
+    font-size: 2em;
+  }
+  b,
+  strong {
+    font-weight: 900;
+  }
+  button,
+  input { /* 1 */
+    overflow: visible;
+  }
+  button,
+  select { /* 1 */
+    text-transform: none;
+  }
+  button,
+  [type="button"],
+  [type="reset"],
+  [type="submit"] {
+    -webkit-appearance: button;
+  }
+  button::-moz-focus-inner,
+  [type="button"]::-moz-focus-inner,
+  [type="reset"]::-moz-focus-inner,
+  [type="submit"]::-moz-focus-inner {
+    border-style: none;
+    padding: 0;
+  }
+  button:-moz-focusring,
+  [type="button"]:-moz-focusring,
+  [type="reset"]:-moz-focusring,
+  [type="submit"]:-moz-focusring {
+    outline: 1px dotted ButtonText;
+  }
+  button,
+  input,
+  optgroup,
+  select,
+  textarea {
+    font-family: Tahoma, Verdana;
+    font-size: 11px;
+  }
+  
+  body {
+    -webkit-font-smoothing: none;
+    -moz-osx-font-smoothing: none;
+    
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    text-align: center;
+    text-align:right;
+}
+
+tr {
+    padding-bottom: 10px;
+}
+
+input[type=submit] {
+    font-weight: bold;
+    line-height: 12px;
+    min-height: 30px;
+    min-width: 60px;
+    border: 1px solid;
+    border-top-color: #dfdfdf;
+    border-left-color: #dfdfdf;
+    border-right-color: #808080;
+    border-bottom-color: #808080;
+    box-shadow: 1px 1px 0 0 #000;
+    background-color: rgb(270,255,235);
+    text-align: center;
+    outline: none;
+}
+
+input[type=submit]:enabled {
+    color: #070707;
+}
+
+input[type=submit]:disabled {
+    color: #818181;
+    text-shadow: 1px 1px #fff;
+}
+
+input[type=submit]:active:enabled {
+    box-shadow: 1px 1px 0 0 #000 inset;
+    border-top-color: #808080;
+    border-left-color: #808080;
+    border-right-color: #dfdfdf;
+    border-bottom-color: #dfdfdf;
+}
+
+input[type=text] {
+    font-size: 11px;
+    font-family: Tahoma, Verdana;
+    color: #070707;
+    box-shadow: -1px -1px 0 0 #808080, 1px 1px 0 0 #fff;
+    border: 1px solid;
+    border-top-color: #000;
+    border-left-color: #000;
+    border-right-color: #dfdfdf;
+    border-bottom-color: #dfdfdf;
+    background-color: rgb(270,255,235);
+    height: 20px;
+    width: 190px;
+}
+
+table {
+  display: inline-block;
+}
+
+@media (max-width:1000px) {
+    .sml {
+      width: 75%;
+    }
+}
+
+@media (min-width:1000px) {
+    .sml {
+      width: 50%;
+    }
+}
+
+h3 {
+    display: inline;
+}
+
+.info {
+  max-width: 50%;
+  display:inline-block;
+}
+
+.bottomPadded {
+    padding-bottom: 10px;
+}
+
+/* Maybe gray version? 197 195 198 */

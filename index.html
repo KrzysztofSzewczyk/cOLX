@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>cOLX - strona główna</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="index.css">
+    </head>
+
+    <body>
+        <div>
+            <h1>cOLX</h1>
+            <div class="bottomPadded info">
+                Witaj na cOLX, <strong>darmowej</strong> i <strong>anonimowej</strong> stronie do zamieszczania ogłoszeń!
+                Użyj poniższego paska do odnalezienia ogłoszeń, które ciebie interesują, wybrać lokalizację, z której
+                ogłoszenia preferujesz zobaczyć, lub też przejrzeć wszystkie ogłoszenia!
+            </div>
+        </div>
+        <div>
+            <table class=".tab">
+                <tr>
+                    <td>
+                        <h3>Interesuje&nbsp;mnie:</h3>
+                    </td>
+                    <td>
+                        <input type="text" name="name" form="find">
+                    </td>
+
+                    <td rowspan="2">
+                        <form action="/find_ad.php" id="find">
+                            <input type="submit" value="Szukaj!">
+                        </form>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <h3>W okolicy:</h3>
+                    </td>
+
+                    <td>
+                        <input type="text" name="location" form="find">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="3">
+                        <h3>lub</h3>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <h3>Chcę&nbsp;obejrzeć ogłoszenie:</h3>
+                    </td>
+                    <td>
+                        <input type="text" name="id" form="get">
+                    </td>
+                    <td>
+                        <form action="/get_ad.php" id="get">
+                            <input type="submit" value="OK">
+                        </form>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="3">
+                        <div>
+                            <form action="/find_ad.php">
+                                <input type="submit" value="Przeglądaj oferty">
+                            </form>
+                        </div>
+                        <div>
+                            <form action="/new_ad.php">
+                                <input type="submit" value="Nowe ogłoszenie">
+                            </form>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <footer>
+            <hr>
+            Copyright &copy; by Kamila Palaiologos Szewczyk, Apr 2019.
+        </footer>
+    </body>
+</html>
